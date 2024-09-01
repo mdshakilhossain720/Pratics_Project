@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'screen/home.dart';
+import 'screen/onboarding.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomePage(),
+      home: Onboarding (),
     );
   }
 }
